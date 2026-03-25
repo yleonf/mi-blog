@@ -1,3 +1,41 @@
+/* ============================
+RESET Y BASE
+============================ */
+*, *::before, *::after {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+:root {
+--color-primary: #028090;
+--color-primary-dark: #015A66;
+--color-accent: #38BDF8;
+--color-bg: #F8FAFC;
+--color-text: #1E293B;
+--color-muted: #64748B;
+--color-white: #FFFFFF;
+--color-border: #E2E8F0;
+--font-main: Arial, Helvetica, sans-serif;
+--font-heading: Georgia, 'Times New Roman', serif;
+}
 body {
-background-color: lightcoral;
+font-family: var(--font-main);
+font-size: 16px;
+line-height: 1.6;
+color: var(--color-text);
+background-color: var(--color-bg);
+}
+
+h2 {
+font-family: var(--font-heading);
+color: var(--color-primary);
+margin-bottom: 10px;
+}
+.post {
+background-color: var(--color-white);
+padding: 25px;
+margin-bottom: 20px;
+border: 1px solid var(--color-border);
+border-radius: 8px;
 }
